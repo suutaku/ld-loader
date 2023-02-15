@@ -4,7 +4,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 )
 
-const defaultDBName = "schema_caching"
+const defaultDBName = "/tmp/schema_caching"
 
 const LocalKVStorageType = StorageType("LocalKVStorage")
 
